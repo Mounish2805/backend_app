@@ -1,0 +1,25 @@
+.row {
+    display: flex;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+}
+.box{
+    margin: 5px;
+    padding: 5px;
+    border:1px solid gray;
+    border-radius: 5px;
+    
+}
+.header{
+    background-color: rgb(30, 21, 211);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer{
+    background-color: rgb(100, 97, 194);
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
