@@ -11,6 +11,7 @@ dotenv.config();//connect to .env file
 app.use(expressLayouts);
 app.set("view engine", "ejs");
 app.set("views", "views");
+app.set("layout",'layout')
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
